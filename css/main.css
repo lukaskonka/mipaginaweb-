@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+.encabezado {
+background-color: #0f966d;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+position: fixed;
+width: 100%;
+}
+
+.logo {
+    color: aliceblue;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu_item a:hover {
+    color: black;
+}
+
+/* IMAGEN PRINCIPAL*/
+
+.imagenprincipal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../IMAGENES/img/imagen3.jpg");
+    background-size: cover;
+}
+
+.imagenprincipal_titulo {
+    font-size: 48px;
+    color: rgba(241, 245, 31, 0.925);
+    background-color: black;
+
+}
+
+/* PORQUE ENTRENAR CON NOSOTROS*/
+
+.motivos {
+    padding: 80px;
+    text-align: center;
+    color: rgba(241, 245, 31, 0.925);
+    background-color: black;
+    justify-content: space-between;
+}
+
+.opinion_primera {
+
+    padding: 50px;
+
+
+
+
+
+}
+.opiniones {
+    padding: 80px;
+    text-align: center;
+    color: rgba(241, 245, 31, 0.925);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 112, 112);
+    display: flex;
+    
+
+
+}
+
+
+
+/* ficha de contacto*/
+
+.nombre {
+    display: flex;
+    font-size: 48px;
+   
+}
+
